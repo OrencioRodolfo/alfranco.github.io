@@ -1,9 +1,9 @@
-import entries from "../../assets/img/entradas.png";
-import meats from "../../assets/img/carnes.png";
-import fish from "../../assets/img/peixe.png";
-import pastas from "../../assets/img/massas.png";
-import omelets from "../../assets/img/omeletes.png";
-import pizzas from "../../assets/img/pizzas.png";
+import entries from "../../assets/img/entradas@2x.png";
+import meats from "../../assets/img/carnes@2x.png";
+import fish from "../../assets/img/peixe@2x.png";
+import pastas from "../../assets/img/massas@2x.png";
+import omelets from "../../assets/img/omeletes@2x.png";
+import pizzas from "../../assets/img/pizzas@2x.png";
 
 const imgs = {
   entries,

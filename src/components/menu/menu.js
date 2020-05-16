@@ -24,6 +24,10 @@ const style = `
     margin-bottom: 50px;
   }
 
+  img {
+    height: 40px;
+  }
+
   .section-title {
     display: flex;
     justify-content: space-between;
