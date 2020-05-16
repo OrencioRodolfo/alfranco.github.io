@@ -1,10 +1,14 @@
-import img from "../../assets/img/alfranco.png";
+import img from "../../assets/img/alfranco@2x.png";
 
 const style = `
   section {
     text-align: center;
     padding: 40px 0;
     position: relative;
+  }
+
+  img {
+    height: 84px;
   }
 
   button {
