@@ -1,196 +1,412 @@
 {
   "pt": {
-    "Entradas": [
-      "Antipasto Italiano, prato frio com carnes e queijo",
-      "Salada de Atum",
-      "Salada Mista",
-      "Açorda",
-      "Lapas grelhadas",
-      "Gampas à La Plancha (500g)"
-    ],
-    "Carnes": [
-      "Bife de Lombo (200g) com ovo",
-      "Bife de Lombo (300g)",
-      "Bife de Lombo (300g) com cogumelos ou molho de pimenta",
-      "Bife à Portuguesa",
-      "Costeletas de porco",
-      "Picado regional grande",
-      "Picado regional médio"
-    ],
-    "Massas": [
-      "Espareguete à bolonhesa",
-      "Espareguete à Carbonara",
-      "Lasanha"
-    ],
-    "Omoletes": [
-      "Omelete de Queijo",
-      "Omelete de Fiambre",
-      "Omelete Mista",
-      "Omelete de Chouriço",
-      "Omelete de Camarão"
-    ],
-    "Pizzas": [
-      {
-        "title": "Margarita",
-        "description": "Queijo, tomate e ervas"
-      },
-      {
-        "title": "Tropicana",
-        "description": "Queijo, tomate, ervas, ananás e fiambre"
-      },
-      {
-        "title": "Salami",
-        "description": "Queijo, tomate, ervas, azeitona e carnes frias"
-      },
-      {
-        "title": "Al Fungi",
-        "description": "Queijo, tomate, ervas, azeitona e cogumelos"
-      },
-      {
-        "title": "Marinara",
-        "description": "Cebola, alchovas, azeitona e frutos do mar"
-      },
-      {
-        "title": "Vegetariana",
-        "description": "Queijo, tomate, ervas, cebola, azeitona e misto vegetal"
-      },
-      {
-        "title": "Pepperoni",
-        "description": "Queijo, tomate, ervas, cebola, azeitona e chouriço picante"
-      },
-      {
-        "title": "Altono",
-        "description": "Queijo, tomate, ervas, cebola, azeitona e atum"
-      },
-      {
-        "title": "AlFranco",
-        "description": "Queijo, tomate, ervas, cebola, azeitona, frango e ovo"
-      },
-      {
-        "title": "Al Prosciutto",
-        "description": "Queijo, tomate, ervas, azeitona e presunto"
-      },
-      {
-        "title": "Bolonhesa",
-        "description": "Queijo, tomate, ervas e carne moída"
-      },
-      {
-        "title": "Sunrise",
-        "description": "Queijo, tomate, ervas, salsicha, bacon e ovo"
-      },
-      {
-        "title": "4 Estações",
-        "description": "Cebola, azeitona, fiambre, cogumelos, chouriço e pimentão"
-      },
-      {
-        "title": "Amanda",
-        "description": "Queijo, tomate, ervas, fiambre, alho e cogumelos"
-      },
-      {
-        "title": "Terra Nostra",
-        "description": "Queijo, tomate, ervas, bacalhau, cebola, azeitona, alchovas e alcaparra"
-      },
-      {
-        "title": "Camarão",
-        "description": "Queijo, tomate, ervas, camarão e alho"
-      }
-    ]
+    "entries": {
+      "title": "Entradas",
+      "items": [
+        {
+          "title": "Antipasto Italiano, prato frio com carnes e queijo",
+          "price": 9
+        },
+        {
+          "title": "Salada de Atum",
+          "price": 9
+        },
+        {
+          "title": "Salada Mista",
+          "price": 9
+        },
+        {
+          "title": "Açorda",
+          "price": 9
+        },
+        {
+          "title": "Lapas grelhadas",
+          "price": 9
+        },
+        {
+          "title": "Gampas à La Plancha (500g)",
+          "price": 9
+        }
+      ]
+    },
+    "meats": {
+      "title": "Carnes",
+      "items": [
+        {
+          "title": "Bife de Lombo (200g) com ovo",
+          "price": 7
+        },
+        {
+          "title": "Bife de Lombo (300g)",
+          "price": 7
+        },
+        {
+          "title": "Bife de Lombo (300g) com cogumelos ou molho de pimenta",
+          "price": 7
+        },
+        {
+          "title": "Bife à Portuguesa",
+          "price": 7
+        },
+        {
+          "title": "Costeletas de porco",
+          "price": 7
+        },
+        {
+          "title": "Picado regional grande",
+          "price": 7
+        },
+        {
+          "title": "Picado regional médio",
+          "price": 7
+        }
+      ]
+    },
+    "fish": {
+      "title": "Peixe",
+      "items": [
+        {
+          "title": "Bacalhau grelhado",
+          "price": 7
+        },
+        {
+          "title": "Bife de Atum",
+          "price": 7
+        }
+      ]
+    },
+    "pastas": {
+      "title": "Massas",
+      "items": [
+        {
+          "title": "Espareguete à bolonhesa",
+          "price": 10
+        },
+        {
+          "title": "Espareguete à Carbonara",
+          "price": 10
+        },
+        {
+          "title": "Lasanha",
+          "price": 10
+        }
+      ]
+    },
+    "omelets": {
+      "title": "Omoletes",
+      "subtitle": "c/batata frita",
+      "items": [
+        {
+          "title": "Omelete de Queijo",
+          "price": 8
+        },
+        {
+          "title": "Omelete de Fiambre",
+          "price": 8
+        },
+        {
+          "title": "Omelete Mista",
+          "price": 8
+        },
+        {
+          "title": "Omelete de Chouriço",
+          "price": 8
+        },
+        {
+          "title": "Omelete de Camarão",
+          "price": 8
+        }
+      ]
+    },
+    "pizzas": {
+      "title": "Pizzas",
+      "items": [
+        {
+          "title": "Margarita",
+          "description": "Queijo, tomate e ervas",
+          "price": 8
+        },
+        {
+          "title": "Tropicana",
+          "description": "Queijo, tomate, ervas, ananás e fiambre",
+          "price": 8
+        },
+        {
+          "title": "Salami",
+          "description": "Queijo, tomate, ervas, azeitona e carnes frias",
+          "price": 8
+        },
+        {
+          "title": "Al Fungi",
+          "description": "Queijo, tomate, ervas, azeitona e cogumelos",
+          "price": 8
+        },
+        {
+          "title": "Marinara",
+          "description": "Cebola, alchovas, azeitona e frutos do mar",
+          "price": 8
+        },
+        {
+          "title": "Vegetariana",
+          "description": "Queijo, tomate, ervas, cebola, azeitona e misto vegetal",
+          "price": 8
+        },
+        {
+          "title": "Pepperoni",
+          "description": "Queijo, tomate, ervas, cebola, azeitona e chouriço picante",
+          "price": 8
+        },
+        {
+          "title": "Altono",
+          "description": "Queijo, tomate, ervas, cebola, azeitona e atum",
+          "price": 8
+        },
+        {
+          "title": "AlFranco",
+          "description": "Queijo, tomate, ervas, cebola, azeitona, frango e ovo",
+          "price": 8
+        },
+        {
+          "title": "Al Prosciutto",
+          "description": "Queijo, tomate, ervas, azeitona e presunto",
+          "price": 8
+        },
+        {
+          "title": "Bolonhesa",
+          "description": "Queijo, tomate, ervas e carne moída",
+          "price": 8
+        },
+        {
+          "title": "Sunrise",
+          "description": "Queijo, tomate, ervas, salsicha, bacon e ovo",
+          "price": 8
+        },
+        {
+          "title": "4 Estações",
+          "description": "Cebola, azeitona, fiambre, cogumelos, chouriço e pimentão",
+          "price": 8
+        },
+        {
+          "title": "Amanda",
+          "description": "Queijo, tomate, ervas, fiambre, alho e cogumelos",
+          "price": 8
+        },
+        {
+          "title": "Terra Nostra",
+          "description": "Queijo, tomate, ervas, bacalhau, cebola, azeitona, alchovas e alcaparra",
+          "price": 8
+        },
+        {
+          "title": "Camarão",
+          "description": "Queijo, tomate, ervas, camarão e alho",
+          "price": 8
+        }
+      ]
+    }
   },
   "en": {
-    "Entries": [
-      "Antipasto Italiano, prato frio com carnes e queijo",
-      "Salada de Atum",
-      "Salada Mista",
-      "Açorda",
-      "Lapas grelhadas",
-      "Gampas à La Plancha (500g)"
-    ],
-    "Meat": [
-      "Bife de Lombo (200g) com ovo",
-      "Bife de Lombo (300g)",
-      "Bife de Lombo (300g) com cogumelos ou molho de pimenta",
-      "Bife à Portuguesa",
-      "Costeletas de porco",
-      "Picado regional grande",
-      "Picado regional médio"
-    ],
-    "Pastas": [
-      "Espareguete à bolonhesa",
-      "Espareguete à Carbonara",
-      "Lasanha"
-    ],
-    "Omelet": [
-      "Omelete de Queijo",
-      "Omelete de Fiambre",
-      "Omelete Mista",
-      "Omelete de Chouriço",
-      "Omelete de Camarão"
-    ],
-    "Pizzas": [
-      {
-        "title": "Margarita",
-        "description": "Queijo, tomate e ervas"
-      },
-      {
-        "title": "Tropicana",
-        "description": "Queijo, tomate, ervas, ananás e fiambre"
-      },
-      {
-        "title": "Salami",
-        "description": "Queijo, tomate, ervas, azeitona e carnes frias"
-      },
-      {
-        "title": "Al Fungi",
-        "description": "Queijo, tomate, ervas, azeitona e cogumelos"
-      },
-      {
-        "title": "Marinara",
-        "description": "Cebola, alchovas, azeitona e frutos do mar"
-      },
-      {
-        "title": "Vegetariana",
-        "description": "Queijo, tomate, ervas, cebola, azeitona e misto vegetal"
-      },
-      {
-        "title": "Pepperoni",
-        "description": "Queijo, tomate, ervas, cebola, azeitona e chouriço picante"
-      },
-      {
-        "title": "Altono",
-        "description": "Queijo, tomate, ervas, cebola, azeitona e atum"
-      },
-      {
-        "title": "AlFranco",
-        "description": "Queijo, tomate, ervas, cebola, azeitona, frango e ovo"
-      },
-      {
-        "title": "Al Prosciutto",
-        "description": "Queijo, tomate, ervas, azeitona e presunto"
-      },
-      {
-        "title": "Bolonhesa",
-        "description": "Queijo, tomate, ervas e carne moída"
-      },
-      {
-        "title": "Sunrise",
-        "description": "Queijo, tomate, ervas, salsicha, bacon e ovo"
-      },
-      {
-        "title": "4 Estações",
-        "description": "Cebola, azeitona, fiambre, cogumelos, chouriço e pimentão"
-      },
-      {
-        "title": "Amanda",
-        "description": "Queijo, tomate, ervas, fiambre, alho e cogumelos"
-      },
-      {
-        "title": "Terra Nostra",
-        "description": "Queijo, tomate, ervas, bacalhau, cebola, azeitona, alchovas e alcaparra"
-      },
-      {
-        "title": "Camarão",
-        "description": "Queijo, tomate, ervas, camarão e alho"
-      }
-    ]
+    "entries": {
+      "title": "Entries",
+      "items": [
+        {
+          "title": "Antipasto Italiano, prato frio com carnes e queijo",
+          "price": 9
+        },
+        {
+          "title": "Salada de Atum",
+          "price": 9
+        },
+        {
+          "title": "Salada Mista",
+          "price": 9
+        },
+        {
+          "title": "Açorda",
+          "price": 9
+        },
+        {
+          "title": "Lapas grelhadas",
+          "price": 9
+        },
+        {
+          "title": "Gampas à La Plancha (500g)",
+          "price": 9
+        }
+      ]
+    },
+    "meats": {
+      "title": "Meats",
+      "items": [
+        {
+          "title": "Bife de Lombo (200g) com ovo",
+          "price": 7
+        },
+        {
+          "title": "Bife de Lombo (300g)",
+          "price": 7
+        },
+        {
+          "title": "Bife de Lombo (300g) com cogumelos ou molho de pimenta",
+          "price": 7
+        },
+        {
+          "title": "Bife à Portuguesa",
+          "price": 7
+        },
+        {
+          "title": "Costeletas de porco",
+          "price": 7
+        },
+        {
+          "title": "Picado regional grande",
+          "price": 7
+        },
+        {
+          "title": "Picado regional médio",
+          "price": 7
+        }
+      ]
+    },
+    "fish": {
+      "title": "Peixe",
+      "items": [
+        {
+          "title": "Bacalhau grelhado",
+          "price": 7
+        },
+        {
+          "title": "Bife de Atum",
+          "price": 7
+        }
+      ]
+    },
+    "pastas": {
+      "title": "Pastas",
+      "items": [
+        {
+          "title": "Espareguete à bolonhesa",
+          "price": 10
+        },
+        {
+          "title": "Espareguete à Carbonara",
+          "price": 10
+        },
+        {
+          "title": "Lasanha",
+          "price": 10
+        }
+      ]
+    },
+    "omelets": {
+      "title": "Omolets",
+      "subtitle": "c/batata frita",
+      "items": [
+        {
+          "title": "Omelete de Queijo",
+          "price": 8
+        },
+        {
+          "title": "Omelete de Fiambre",
+          "price": 8
+        },
+        {
+          "title": "Omelete Mista",
+          "price": 8
+        },
+        {
+          "title": "Omelete de Chouriço",
+          "price": 8
+        },
+        {
+          "title": "Omelete de Camarão",
+          "price": 8
+        }
+      ]
+    },
+    "pizzas": {
+      "title": "Pizzas",
+      "items": [
+        {
+          "title": "Margarita",
+          "description": "Queijo, tomate e ervas",
+          "price": 8
+        },
+        {
+          "title": "Tropicana",
+          "description": "Queijo, tomate, ervas, ananás e fiambre",
+          "price": 8
+        },
+        {
+          "title": "Salami",
+          "description": "Queijo, tomate, ervas, azeitona e carnes frias",
+          "price": 8
+        },
+        {
+          "title": "Al Fungi",
+          "description": "Queijo, tomate, ervas, azeitona e cogumelos",
+          "price": 8
+        },
+        {
+          "title": "Marinara",
+          "description": "Cebola, alchovas, azeitona e frutos do mar",
+          "price": 8
+        },
+        {
+          "title": "Vegetariana",
+          "description": "Queijo, tomate, ervas, cebola, azeitona e misto vegetal",
+          "price": 8
+        },
+        {
+          "title": "Pepperoni",
+          "description": "Queijo, tomate, ervas, cebola, azeitona e chouriço picante",
+          "price": 8
+        },
+        {
+          "title": "Altono",
+          "description": "Queijo, tomate, ervas, cebola, azeitona e atum",
+          "price": 8
+        },
+        {
+          "title": "AlFranco",
+          "description": "Queijo, tomate, ervas, cebola, azeitona, frango e ovo",
+          "price": 8
+        },
+        {
+          "title": "Al Prosciutto",
+          "description": "Queijo, tomate, ervas, azeitona e presunto",
+          "price": 8
+        },
+        {
+          "title": "Bolonhesa",
+          "description": "Queijo, tomate, ervas e carne moída",
+          "price": 8
+        },
+        {
+          "title": "Sunrise",
+          "description": "Queijo, tomate, ervas, salsicha, bacon e ovo",
+          "price": 8
+        },
+        {
+          "title": "4 Estações",
+          "description": "Cebola, azeitona, fiambre, cogumelos, chouriço e pimentão",
+          "price": 8
+        },
+        {
+          "title": "Amanda",
+          "description": "Queijo, tomate, ervas, fiambre, alho e cogumelos",
+          "price": 8
+        },
+        {
+          "title": "Terra Nostra",
+          "description": "Queijo, tomate, ervas, bacalhau, cebola, azeitona, alchovas e alcaparra",
+          "price": 8
+        },
+        {
+          "title": "Camarão",
+          "description": "Queijo, tomate, ervas, camarão e alho",
+          "price": 8
+        }
+      ]
+    }
   }
 }
