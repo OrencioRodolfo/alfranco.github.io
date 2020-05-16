@@ -1,9 +1,13 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const merge = require('webpack-merge');
+const common = require('./webpack.common');
 
-module.exports = {
+module.exports = merge(common, {
   mode: 'development',
-  entry: './src/index.js',
+  entry: {
+    app: './src/index.js'
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js'
@@ -12,19 +16,5 @@ module.exports = {
     compress: true,
     port: 9000
   },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "babel-loader"
-      }
-    ]
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./src/index.html"
-    })
-  ]
-};
+});
 
