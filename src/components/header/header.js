@@ -1,4 +1,5 @@
 import img from "../../assets/img/alfranco@2x.png";
+import { fontSizes } from "../../theme/typography";
 
 const style = `
   section {
@@ -13,13 +14,13 @@ const style = `
 
   button {
     position: absolute;
-    right: -26px;
+    right: 0;
     background: whitesmoke;
     border-radius: 50%;
     width: 26px;
     height: 26px;
     padding: 0;
-    font-size: 12px;
+    font-size: ${fontSizes.xs};
     text-transform: uppercase;
   }
 `
@@ -30,7 +31,7 @@ $template.innerHTML = `
     ${style}
   </style>
   <section>
-    <button id="swith-lang-btn">EN</button>
+    <button id="swith-lang-btn"></button>
     <img src="${img}" />
   </section>
 `
@@ -42,18 +43,19 @@ export default class Counter extends HTMLElement {
     this.root.appendChild($template.content.cloneNode(true));
     this.$langBtn = this.root.querySelector('#swith-lang-btn')
     this.selectedLang = navigator.language === "pt" ? "pt" : "en";
+    this.renderLangButton(this.selectedLang);
   }
 
   swtichLanguage() {
     this.selectedLang = this.selectedLang === "pt" ? "en" : "pt";
-    this.update();
+    this.renderLangButton(this.selectedLang);
 
     const event = new CustomEvent("switch-language", { detail: { lang: this.selectedLang } });
     document.dispatchEvent(event);
   }
 
-  update() {
-    this.$langBtn.innerText = this.selectedLang;
+  renderLangButton(lang) {
+    this.$langBtn.innerText = lang;
   }
 
   connectedCallback() {

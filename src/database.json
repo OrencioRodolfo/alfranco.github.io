@@ -1,0 +1,438 @@
+{
+  "pt": {
+    "menu": {
+      "entries": {
+        "title": "Entradas",
+        "items": [
+          {
+            "title": "Antipasto Italiano, prato frio com carnes e queijo",
+            "price": 7.5
+          },
+          {
+            "title": "Salada de Atum",
+            "price": 6
+          },
+          {
+            "title": "Salada Mista",
+            "price": 4.5
+          },
+          {
+            "title": "Açorda",
+            "price": 3
+          },
+          {
+            "title": "Lapas grelhadas",
+            "price": 6
+          },
+          {
+            "title": "Gambas à La Plancha (500g)",
+            "price": 17.5
+          }
+        ]
+      },
+      "meats": {
+        "title": "Carnes",
+        "items": [
+          {
+            "title": "Bife de Lombo (200g) com ovo",
+            "price": 8
+          },
+          {
+            "title": "Bife grelhado (300g)",
+            "price": 10
+          },
+          {
+            "title": "Bife com cogumelos e molho pimenta (300g)",
+            "price": 11
+          },
+          {
+            "title": "Bife à Portuguesa",
+            "price": 8
+          },
+          {
+            "title": "Bife de peito de frango",
+            "price": 7.5
+          },
+          {
+            "title": "Costeleta de porco",
+            "price": 7.5
+          },
+          {
+            "title": "Picado regional grande",
+            "price": 22
+          },
+          {
+            "title": "Picado regional médio",
+            "price": 11
+          },
+          {
+            "title": "Prego no bolo do caco c/ ovo",
+            "price": 4.5
+          }
+        ]
+      },
+      "pastas": {
+        "title": "Massas",
+        "items": [
+          {
+            "title": "Espareguete à bolonhesa",
+            "price": 6
+          },
+          {
+            "title": "Espareguete à Carbonara",
+            "price": 6.5
+          },
+          {
+            "title": "Lasanha",
+            "price": 8
+          }
+        ]
+      },
+      "omelets": {
+        "title": "Omeletes",
+        "subtitle": "c/batata frita",
+        "items": [
+          {
+            "title": "Omelete de Queijo",
+            "price": 5.5
+          },
+          {
+            "title": "Omelete de Fiambre",
+            "price": 5.5
+          },
+          {
+            "title": "Omelete de Cogumelos",
+            "price": 6
+          },
+          {
+            "title": "Omelete Mista",
+            "price": 6.5
+          },
+          {
+            "title": "Omelete de Chouriço",
+            "price": 6.5
+          },
+          {
+            "title": "Omelete de Camarão",
+            "price": 8
+          }
+        ]
+      },
+      "fish": {
+        "title": "Peixe",
+        "items": [
+          {
+            "title": "Bacalhau grelhado",
+            "price": 12
+          }
+        ]
+      },
+      "pizzas": {
+        "title": "Pizzas",
+        "items": [
+          {
+            "title": "Margarita",
+            "description": "Queijo, tomate e ervas",
+            "price": "6/7"
+          },
+          {
+            "title": "Tropicana",
+            "description": "Queijo, tomate, ervas, ananás e fiambre",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Salami",
+            "description": "Queijo, tomate, ervas, azeitona e carnes frias",
+            "price": "9/11"
+          },
+          {
+            "title": "Al Fungi",
+            "description": "Queijo, tomate, ervas, azeitona e cogumelos",
+            "price": "7.5/9"
+          },
+          {
+            "title": "Marinara",
+            "description": "Cebola, anchovas, azeitona e frutos do mar",
+            "price": "10/12"
+          },
+          {
+            "title": "Vegetariana",
+            "description": "Queijo, tomate, ervas, cebola, azeitona e misto vegetal",
+            "price": "7/8"
+          },
+          {
+            "title": "Pepperoni",
+            "description": "Queijo, tomate, ervas, cebola, azeitona, chouriço picante e pimentão",
+            "price": "8/9.5"
+          },
+          {
+            "title": "Altono",
+            "description": "Queijo, tomate, ervas, cebola, azeitona e atum",
+            "price": "7.5/9"
+          },
+          {
+            "title": "AlFranco",
+            "description": "Queijo, tomate, ervas, cebola, azeitona, frango e ovo",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Al Prosciutto",
+            "description": "Queijo, tomate, ervas, azeitona e presunto",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Bolonhesa",
+            "description": "Queijo, tomate, ervas e carne moída",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Sunrise",
+            "description": "Queijo, tomate, ervas, salsicha, bacon e ovo",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "4 Estações",
+            "description": "Cebola, azeitona, fiambre, cogumelos, chouriço e pimentão",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Amanda",
+            "description": "Queijo, tomate, ervas, fiambre, alho e cogumelos",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Terra Nostra",
+            "description": "Queijo, tomate, ervas, bacalhau, cebola, azeitona, anchovas e alcaparra",
+            "price": "10/11"
+          },
+          {
+            "title": "Camarão",
+            "description": "Queijo, tomate, ervas, camarão e alho",
+            "price": "10/12"
+          }
+        ]
+      }
+    },
+    "thank_you": "Obrigado pela sua preferencia!",
+    "contacts": "Contatos"
+  },
+  "en": {
+    "menu": {
+      "entries": {
+        "title": "Entries",
+        "items": [
+          {
+            "title": "Antipasto Italiano, cold meats and cheese",
+            "price": 7.5
+          },
+          {
+            "title": "Tuna Salad",
+            "price": 6
+          },
+          {
+            "title": "Mix salad",
+            "price": 4.5
+          },
+          {
+            "title": "Regional bread soup",
+            "price": 3
+          },
+          {
+            "title": "Grilled limpets",
+            "price": 6
+          },
+          {
+            "title": "Grilled King Prawds (500g)",
+            "price": 17.5
+          }
+        ]
+      },
+      "meats": {
+        "title": "Meats",
+        "items": [
+          {
+            "title": "Steak with egg (200g)",
+            "price": 8
+          },
+          {
+            "title": "Grilled steak (300g)",
+            "price": 10
+          },
+          {
+            "title": "Steak  with mushrooms and pepper sauce (300g)",
+            "price": 11
+          },
+          {
+            "title": "Portuguese steak",
+            "price": 8
+          },
+          {
+            "title": "Chicken breast steak",
+            "price": 7.5
+          },
+          {
+            "title": "Porc cutlet",
+            "price": 7.5
+          },
+          {
+            "title": "Diced Beef Large (with cheaps)",
+            "price": 22
+          },
+          {
+            "title": "Diced Beef Medium (with cheaps)",
+            "price": 11
+          },
+          {
+            "title": "Regional steak sandwich with egg",
+            "price": 4.5
+          }
+        ]
+      },
+      "pastas": {
+        "title": "Pastas",
+        "items": [
+          {
+            "title": "Bolognese",
+            "price": 6
+          },
+          {
+            "title": "Carbonara",
+            "price": 6.5
+          },
+          {
+            "title": "Lasagna",
+            "price": 8
+          }
+        ]
+      },
+      "omelets": {
+        "title": "Omolets",
+        "subtitle": "with cheaps",
+        "items": [
+          {
+            "title": "Cheese Omelet",
+            "price": 5.5
+          },
+          {
+            "title": "Ham Omelet",
+            "price": 5.5
+          },
+          {
+            "title": "Mushroom Omelet",
+            "price": 6
+          },
+          {
+            "title": "Ham and Cheese Omelet",
+            "price": 6.5
+          },
+          {
+            "title": "Chorizo Omelet",
+            "price": 6.5
+          },
+          {
+            "title": "Shrimp Omelet",
+            "price": 8
+          }
+        ]
+      },
+      "fish": {
+        "title": "Peixe",
+        "items": [
+          {
+            "title": "Grilled Cod",
+            "price": 12
+          }
+        ]
+      },
+      "pizzas": {
+        "title": "Pizzas",
+        "items": [
+          {
+            "title": "Margarita",
+            "description": "Cheese, tomato and herbs",
+            "price": "6/7"
+          },
+          {
+            "title": "Tropicana",
+            "description": "Cheese, tomato, herbs, pineapple and ham",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Salami",
+            "description": "Cheese, tomato, herbs, olive and cold meats",
+            "price": "9/11"
+          },
+          {
+            "title": "Al Fungi",
+            "description": "Cheese, tomato, herbs, olive and mushrooms",
+            "price": "7.5/9"
+          },
+          {
+            "title": "Marinara",
+            "description": "Onion, anchovies, olive and Seafood mix",
+            "price": "10/12"
+          },
+          {
+            "title": "Vegetariana",
+            "description": "Cheese, tomato, herbs, onion, olive and vegetable mix",
+            "price": "7/8"
+          },
+          {
+            "title": "Pepperoni",
+            "description": "Cheese, tomato, herbs, onion, olive and \"chilly chorizo\" and green pepper",
+            "price": "8/9.5"
+          },
+          {
+            "title": "Altono",
+            "description": "Cheese, tomato, herbs, onion, olive and tuna",
+            "price": "7.5/9"
+          },
+          {
+            "title": "AlFranco",
+            "description": "Cheese, tomato, herbs, onion, olive, chicken and egg",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Al Prosciutto",
+            "description": "Cheese, tomato, herbs, olive and ham",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Bolonhesa",
+            "description": "Cheese, tomato, herbs and ground beef",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Sunrise",
+            "description": "Cheese, tomato, herbs, sausage, bacon and egg",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "4 Estações",
+            "description": "Onion, olive, ham, mushrooms, chorizo and green pepper",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Amanda",
+            "description": "Cheese, tomato, herbs, ham, garlic and mushrooms",
+            "price": "8.5/9.5"
+          },
+          {
+            "title": "Terra Nostra",
+            "description": "Cheese, tomato, herbs, codfish, onion, olive, anchovies and caper",
+            "price": "10/11"
+          },
+          {
+            "title": "Camarão",
+            "description": "Cheese, tomato, herbs, shrink and garlic",
+            "price": "10/12"
+          }
+        ]
+      }
+    },
+    "thank_you": "Thank you for your preference!",
+    "contacts": "Contacts"
+  },
+  "facebook": "https://www.facebook.com/PizzeriaAlfranco/",
+  "phoneNumber": "291 842 038"
+}
