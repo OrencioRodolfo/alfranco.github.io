@@ -1,0 +1,1 @@
+export const defaultLang = navigator.language === "pt" ? "pt" : "en";

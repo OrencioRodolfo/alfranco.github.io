@@ -1,5 +1,6 @@
 import img from "../../assets/img/alfranco@2x.png";
 import { fontSizes } from "../../theme/typography";
+import { defaultLang } from "../../lang";
 
 const style = `
   section {
@@ -42,7 +43,7 @@ export default class Counter extends HTMLElement {
     this.root = this.attachShadow({ mode: 'closed' });
     this.root.appendChild($template.content.cloneNode(true));
     this.$langBtn = this.root.querySelector('#swith-lang-btn')
-    this.selectedLang = navigator.language === "pt" ? "pt" : "en";
+    this.selectedLang = defaultLang;
     this.renderLangButton(this.selectedLang);
   }
 
