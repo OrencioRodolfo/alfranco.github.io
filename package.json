@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.dev.js",
-    "build": "rm -rf dist && webpack --config ./webpack.prod.js && cp ./favicon.ico ./dist/",
+    "build": "rm -rf dist && mkdir dist/ && cp src/CNAME src/assets/img/alfranco.jpg dist/ && webpack --config ./webpack.prod.js && cp ./favicon.ico ./dist/",
     "publish": "npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
