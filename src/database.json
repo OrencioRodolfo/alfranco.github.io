@@ -251,19 +251,19 @@
             "price": 8
           },
           {
-            "title": "Chicken breast steak",
+            "title": "Chicken steak",
             "price": 7.5
           },
           {
-            "title": "Pork cutlet",
+            "title": "Pork chops",
             "price": 7.5
           },
           {
-            "title": "Diced Beef Large (with cheaps)",
+            "title": "Diced Beef Large (with chips)",
             "price": 22
           },
           {
-            "title": "Diced Beef Medium (with cheaps)",
+            "title": "Diced Beef Medium (with chips)",
             "price": 11
           },
           {
@@ -291,7 +291,7 @@
       },
       "omelets": {
         "title": "Omolets",
-        "subtitle": "with cheaps",
+        "subtitle": "with chips",
         "items": [
           {
             "title": "Cheese Omelet",
@@ -320,7 +320,7 @@
         ]
       },
       "fish": {
-        "title": "Peixe",
+        "title": "Fish",
         "items": [
           {
             "title": "Grilled Cod",
@@ -408,7 +408,7 @@
           },
           {
             "title": "Camarão",
-            "description": "Cheese, tomato, herbs, shrink and garlic",
+            "description": "Cheese, tomato, herbs, Shrimp and garlic",
             "price": "10/12"
           }
         ]
